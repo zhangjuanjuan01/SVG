@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>circle-canvas</title>
+</head>
+<!--canvas如果想具体获得点击的为圆，则需要根据鼠标的当前位置与圆的位置进行比较，如果在园内则是点击圆事件-->
+<body onload="drawCircle()">
+<div style="width: 500px;height: 500px;margin: 0 auto">
+    <canvas style="border:1px solid red;" width="200" height="200" onclick="showAlert()" id="circle-canvas"></canvas>
+    <!--<canvas style="border:1px solid red;width:200px;height:200px;" onclick="showAlert()" id="circle-canvas"></canvas>-->
+    <!--如果在style中设置width和height，画出来的结果是椭圆，但是如果直接设置width和height，画出来的结果是圆？？？-->
+</div>
+<script>
+function showAlert() {
+    alert("hello this is canvas circle");
+}
+function drawCircle() {
+    var canvas = document.getElementById("circle-canvas");
+    if(canvas.getContext){
+        var ctx = canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.fillStyle = "rgb(0,125,0)";
+        ctx.arc(100,100,50,0,2*Math.PI,true);
+        ctx.fill();
+    }
+}
+</script>
+</body>
+</html>

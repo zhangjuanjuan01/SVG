@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672.36 135.31">
+<style type="text/css">
+@keyframes marchingants {
+    to { stroke-dashoffset: 19; }
+}
+rect#strokedrect {
+    stroke: hsl(260, 50%, 90%);
+    fill: white;
+    stroke-width: 7;
+    stroke-dasharray: 10;
+    animation: marchingants 1s forwards infinite linear;
+}
+@keyframes strokeanim {
+    0% {
+        stroke-dashoffset: 880.3;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+line#dashstart {
+    stroke: hsl(260, 50%, 30%);
+    stroke-width: 2;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: strokeanim 2s alternate infinite;
+}
+path{
+    fill: none;
+    stroke-width: 2;
+    stroke:#CCC;
+    stroke-dasharray: 880.3;
+    stroke-dashoffset: 880.3;
+}
+path#cls-1{
+    animation: strokeanim 2s alternate infinite;
+}
+</style>
+    <rect id="strokedrect" x="0" y="0" width="300" height="200" />
+    <line x1="0" y1="100" x2="300" y2="100" id="dashstart"></line>
+    <path id="cls-1" d="M348.5,433.5c-97,349,763.92-273.59,654,118" transform="translate(-340.36 -416.33)"></path>
+</svg>
+<script>
+    window.onload = function () {
+        var path = document.getElementById('cls-1');
+        var length = path.getTotalLength();
+        console.log("length====="+length);
+    }
+
+</script>
