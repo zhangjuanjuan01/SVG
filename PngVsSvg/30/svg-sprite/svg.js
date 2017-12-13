@@ -1,0 +1,3 @@
+var symbols = '<svg style="width:0; height:0; visibility:hidden;position:absolute;z-index:-1"><symbol viewBox="0 0 24 24" id="heart"> ' +
+    '<path fill="#E86C60" d="M17,0c-1.9,0-3.7,0.8-5,2.1C10.7,0.8,8.9,0,7,0C3.1,0,0,3.1,0,7c0,6.4,10.9,15.4,11.4,15.8 c0.2,0.2,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2C13.1,22.4,24,13.4,24,7C24,3.1,20.9,0,17,0z"></path></symbol></svg>';
+document.body.insertAdjacentHTML("afterBegin",symbols);

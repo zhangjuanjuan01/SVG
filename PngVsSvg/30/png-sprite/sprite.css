@@ -1,0 +1,198 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-dynamic {
+  background-image: url(sprite.png);
+  background-position: -205px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-editor {
+  background-image: url(sprite.png);
+  background-position: -615px -615px;
+  width: 200px;
+  height: 200px;
+}
+.icon-eit {
+  background-image: url(sprite.png);
+  background-position: 0px -205px;
+  width: 200px;
+  height: 200px;
+}
+.icon-emoji {
+  background-image: url(sprite.png);
+  background-position: -205px -205px;
+  width: 200px;
+  height: 200px;
+}
+.icon-emoji_fill {
+  background-image: url(sprite.png);
+  background-position: -410px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-empty {
+  background-image: url(sprite.png);
+  background-position: -410px -205px;
+  width: 200px;
+  height: 200px;
+}
+.icon-empty_fill {
+  background-image: url(sprite.png);
+  background-position: 0px -410px;
+  width: 200px;
+  height: 200px;
+}
+.icon-enter {
+  background-image: url(sprite.png);
+  background-position: -205px -410px;
+  width: 200px;
+  height: 200px;
+}
+.icon-enterinto {
+  background-image: url(sprite.png);
+  background-position: -410px -410px;
+  width: 200px;
+  height: 200px;
+}
+.icon-enterinto_fill {
+  background-image: url(sprite.png);
+  background-position: -615px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-manage {
+  background-image: url(sprite.png);
+  background-position: -615px -205px;
+  width: 200px;
+  height: 200px;
+}
+.icon-manage_fill {
+  background-image: url(sprite.png);
+  background-position: -615px -410px;
+  width: 200px;
+  height: 200px;
+}
+.icon-message {
+  background-image: url(sprite.png);
+  background-position: 0px -615px;
+  width: 200px;
+  height: 200px;
+}
+.icon-message_fill {
+  background-image: url(sprite.png);
+  background-position: -205px -615px;
+  width: 200px;
+  height: 200px;
+}
+.icon-mine {
+  background-image: url(sprite.png);
+  background-position: -410px -615px;
+  width: 200px;
+  height: 200px;
+}
+.icon-mine_fill {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-mobilephone {
+  background-image: url(sprite.png);
+  background-position: -820px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-mobilephone_fill {
+  background-image: url(sprite.png);
+  background-position: -820px -205px;
+  width: 200px;
+  height: 200px;
+}
+.icon-more {
+  background-image: url(sprite.png);
+  background-position: -820px -410px;
+  width: 200px;
+  height: 200px;
+}
+.icon-narrow {
+  background-image: url(sprite.png);
+  background-position: -820px -615px;
+  width: 200px;
+  height: 200px;
+}
+.icon-offline {
+  background-image: url(sprite.png);
+  background-position: 0px -820px;
+  width: 200px;
+  height: 200px;
+}
+.icon-offline_fill {
+  background-image: url(sprite.png);
+  background-position: -205px -820px;
+  width: 200px;
+  height: 200px;
+}
+.icon-order {
+  background-image: url(sprite.png);
+  background-position: -410px -820px;
+  width: 200px;
+  height: 200px;
+}
+.icon-order_fill {
+  background-image: url(sprite.png);
+  background-position: -615px -820px;
+  width: 200px;
+  height: 200px;
+}
+.icon-other {
+  background-image: url(sprite.png);
+  background-position: -820px -820px;
+  width: 200px;
+  height: 200px;
+}
+.icon-people {
+  background-image: url(sprite.png);
+  background-position: -1025px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-people_fill {
+  background-image: url(sprite.png);
+  background-position: -1025px -205px;
+  width: 200px;
+  height: 200px;
+}
+.icon-picture {
+  background-image: url(sprite.png);
+  background-position: -1025px -410px;
+  width: 200px;
+  height: 200px;
+}
+.icon-picture_fill {
+  background-image: url(sprite.png);
+  background-position: -1025px -615px;
+  width: 200px;
+  height: 200px;
+}
+.icon-play {
+  background-image: url(sprite.png);
+  background-position: -1025px -820px;
+  width: 200px;
+  height: 200px;
+}

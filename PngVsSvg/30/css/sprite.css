@@ -1,0 +1,290 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 20em 600em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.dynamic:before {
+      background-position: 0em 0em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.editor:before {
+      background-position: 0em -20em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.eit:before {
+      background-position: 0em -40em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.emoji:before {
+      background-position: 0em -60em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.emoji_fill:before {
+      background-position: 0em -80em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.empty:before {
+      background-position: 0em -100em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.empty_fill:before {
+      background-position: 0em -120em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.enter:before {
+      background-position: 0em -140em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.enterinto:before {
+      background-position: 0em -160em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.enterinto_fill:before {
+      background-position: 0em -180em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.manage:before {
+      background-position: 0em -200em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.manage_fill:before {
+      background-position: 0em -220em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.message:before {
+      background-position: 0em -240em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.message_fill:before {
+      background-position: 0em -260em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.mine:before {
+      background-position: 0em -280em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.mine_fill:before {
+      background-position: 0em -300em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.mobilephone:before {
+      background-position: 0em -320em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.mobilephone_fill:before {
+      background-position: 0em -340em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.more:before {
+      background-position: 0em -360em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.narrow:before {
+      background-position: 0em -380em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.offline:before {
+      background-position: 0em -400em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.offline_fill:before {
+      background-position: 0em -420em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.order:before {
+      background-position: 0em -440em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.order_fill:before {
+      background-position: 0em -460em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.other:before {
+      background-position: 0em -480em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.people:before {
+      background-position: 0em -500em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.people_fill:before {
+      background-position: 0em -520em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.picture:before {
+      background-position: 0em -540em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.picture_fill:before {
+      background-position: 0em -560em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+  .icon.play:before {
+      background-position: 0em -580em;
+      width: 20em;
+      height: 20em;
+  }
+
+
+
+
+

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{display: inline-block}
+        svg path{
+            fill: inherit;
+        }
+        .icon{width:200px;height: 200px;}
+        .icon:hover{
+            fill:red;
+        }
+        .icon:active{
+            fill:green;
+        }
+        .icon-small{width:100px;height: 100px}
+        .icon-big{width:300px;height: 300px;}
+        .icon-red{fill:red}
+        .icon-green{fill:green}
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="./svg-sprite/svg.js"></script>
+<svg class="icon icon-big icon-red"><use xlink:href="#heart"/></svg>
+</body>
+</html>
