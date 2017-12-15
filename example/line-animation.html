@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        path{
+            fill:transparent;
+            stroke-width: 2;
+            stroke:red;
+        }
+        input[type="range"] {
+            width: 200px;
+            height:10px;
+        }
+    </style>
+</head>
+<body>
+<svg class="icon" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width: 500px;height: 500px;">
+    <path id="line-path" d="M0 200 H 500"></path>
+</svg>
+<div>
+    <label>stroke-dasharray</label><input type="range" min="0" max="500" name="dasharray" value="0"><label>0</label>
+</div>
+<div style="margin-top:10px;">
+    <label>stroke-dashoffset</label><input type="range" min="0" max="500" name="dashoffset" value="0"><label>0</label>
+</div>
+</body>
+</html>
+<script src="../lib/jquery.min.js"></script>
+<script>
+    window.onload = function (){
+        var path = document.getElementById('line-path');
+        var length = path.getTotalLength();
+        $('input[name="dasharray"]').bind("input",function () {
+            var dasharray = $(this).val();
+            $(this).next("label").html(dasharray);
+            $(path).attr("stroke-dasharray",dasharray);
+        });
+        $('input[name="dashoffset"]').bind("input",function () {
+            var dashoffset = $(this).val();
+            $(this).next("label").html(dashoffset);
+            $(path).attr("stroke-dashoffset",dashoffset);
+        })
+    }
+</script>
