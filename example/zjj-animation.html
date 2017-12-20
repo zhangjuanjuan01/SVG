@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .text-svg{
+        stroke:blue;
+        position:relative;
+        left:100px;
+        top:100px;
+    }
+    text{
+        font-size:10;
+        font-family: arial;
+    }
+</style>
+<body>
+<div style="width: 500px;margin: 0 auto">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="text-svg" viewBox="0 0 300 300">
+            <text x="0" y="100" fill="none" stroke-width="1">Zhang</text>
+            <text x="65" y="100" fill="none" stroke-width="1">Juan</text>
+            <text x="100" y="100" fill="none" stroke-width="1">Juan</text>
+        </symbol>
+    </svg>
+    <svg viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="#text-svg" class="text-svg"></use>
+    </svg>
+</div>
+</body>
+</html>
