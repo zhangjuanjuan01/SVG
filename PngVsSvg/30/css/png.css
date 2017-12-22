@@ -1,0 +1,94 @@
+.icon{
+    width: 200px;
+    height: 200px;
+}
+.icon-dynamic {
+    background-image: url("../png/dynamic.png");
+}
+.icon-editor {
+    background-image: url("../png/editor.png");
+}
+.icon-eit {
+    background-image: url("../png/eit.png");
+}
+.icon-emoji {
+    background-image: url("../png/emoji.png");
+}
+.icon-emoji_fill {
+    background-image: url("../png/emoji_fill.png");
+}
+.icon-empty {
+    background-image: url("../png/empty.png");
+}
+.icon-empty_fill {
+    background-image: url("../png/empty_fill.png");
+}
+.icon-enter {
+    background-image: url("../png/enter.png");
+}
+.icon-enterinto {
+    background-image: url("../png/enterinto.png");
+}
+.icon-enterinto_fill {
+    background-image: url("../png/enterinto_fill.png");
+}
+.icon-manage {
+    background-image: url("../png/manage.png");
+}
+.icon-manage_fill {
+    background-image: url("../png/manage_fill.png");
+}
+.icon-message {
+    background-image: url("../png/message.png");
+}
+.icon-message_fill {
+    background-image: url("../png/message_fill.png");
+}
+.icon-mine {
+    background-image: url("../png/mine.png");
+}
+.icon-mine_fill {
+    background-image: url("../png/mine_fill.png");
+}
+.icon-mobilephone {
+    background-image: url("../png/mobilephone.png");
+}
+.icon-mobilephone_fill {
+    background-image: url("../png/mobilephone_fill.png");
+}
+.icon-more {
+    background-image: url("../png/more.png");
+}
+.icon-narrow {
+    background-image: url("../png/narrow.png");
+}
+.icon-offline {
+    background-image: url("../png/offline.png");
+}
+.icon-offline_fill {
+    background-image: url("../png/offline_fill.png");
+}
+.icon-order {
+    background-image: url("../png/order.png");
+}
+.icon-order_fill {
+    background-image: url("../png/order_fill.png");
+}
+.icon-other {
+    background-image: url("../png/other.png");
+}
+.icon-people {
+    background-image: url("../png/people.png");
+}
+.icon-people_fill {
+    background-image: url("../png/people_fill.png");
+}
+.icon-picture {
+    background-image: url("../png/picture.png");
+}
+.icon-picture_fill {
+    background-image: url("../png/picture_fill.png");
+}
+.icon-play {
+    background-image: url("../png/play.png");
+}

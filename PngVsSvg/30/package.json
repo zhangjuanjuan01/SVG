@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "gulp-svg-sprites": "^4.1.2",
+    "gulp-svgmin": "^1.2.4",
     "gulp.spritesmith": "^6.7.0"
   }
 }

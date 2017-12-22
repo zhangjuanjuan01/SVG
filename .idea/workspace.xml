@@ -2,7 +2,324 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d945aa-5abc-4d79-86a6-40d53ed0cf03" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PngVsSvg/30/css/svg.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/30/css/sprite.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/accessory.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/activity.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/activity_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/add.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/addition.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/addition_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/addpeople.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/addpeople_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/addressbook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/addressbook_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/barrage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/barrage_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/browse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/browse_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/brush.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/brush_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/businesscard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/businesscard_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/camera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/camera_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/clock_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/collection.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/collection_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/computer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/computer_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/coordinates.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/coordinates_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/coupons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/coupons_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/createtask.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/createtask_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/customerservice.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/customerservice_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/delete.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/delete_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/document.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/document_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/dynamic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/dynamic_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/editor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/eit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/emoji.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/emoji_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/empty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/empty_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/enter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/enterinto.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/enterinto_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/feedback.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/feedback_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/flag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/flag_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/flashlight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/flashlight_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/flip.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/flip_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/fullscreen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/group.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/group_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/headlines.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/headlines_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/homepage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/homepage_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/integral.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/integral_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/interactive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/interactive_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/keyboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/label.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/label_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/like.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/like_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/live.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/live_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/lock_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/mail_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/manage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/manage_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/message.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/message_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/mine.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/mine_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/mobilephone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/mobilephone_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/more.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/narrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/offline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/offline_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/order.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/order_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/other.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/people.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/people_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/picture.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/picture_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/SVG - 副本/play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/dynamic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/editor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/eit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/emoji.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/emoji_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/empty_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/enter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/enterinto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/enterinto_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/feedback.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/feedback_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/flag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/flag_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/flashlight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/flashlight_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/flip_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_14f8qrlniungsyvi/group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/clock_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/collection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/collection_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/computer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/computer_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/coordinates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/coordinates_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/coupons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/coupons_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/createtask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/createtask_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/customerservice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/customerservice_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/delete_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/document.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/document_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_43qnx6dr9fxswcdi/dynamic_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/manage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/manage_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/message_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/mine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/mine_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/mobilephone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/mobilephone_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/narrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/offline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/offline_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/order.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/order_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/other.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/people.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/people_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/picture_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_8pi4olkbjyxmvx6r/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/clock_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/collection.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/collection_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/computer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/computer_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/coordinates.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/coordinates_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/coupons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/coupons_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/createtask.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/createtask_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/customerservice.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/customerservice_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/delete.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/delete_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/document.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/document_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_dzivl9rzcwhfr/dynamic_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/manage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/manage_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/message.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/message_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/mine.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/mine_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/mobilephone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/mobilephone_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/more.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/narrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/offline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/offline_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/order.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/order_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/other.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/people.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/people_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/picture.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/picture_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_i4v7ghag11nhfr/play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/group_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/headlines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/headlines_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/homepage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/homepage_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/integral.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/integral_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/interactive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/interactive_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/keyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/label.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/label_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/like.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/like_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/live.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/live_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/lock_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_iiki1ec56gmygb9/mail_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/dynamic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/editor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/eit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/emoji.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/emoji_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/empty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/empty_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/enter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/enterinto.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/enterinto_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/feedback.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/feedback_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/flag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/flag_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/flashlight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/flashlight_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/flip.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/flip_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/fullscreen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_x2cco9fxjacq5mi/group.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/accessory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/activity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/activity_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/addition.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/addition_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/addpeople.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/addpeople_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/addressbook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/addressbook_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/barrage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/barrage_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/browse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/browse_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/brush.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/brush_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/businesscard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/businesscard_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_xao4k350xm2qehfr/camera_fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/accessory.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/activity.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/activity_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/add.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/addition.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/addition_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/addpeople.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/addpeople_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/addressbook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/addressbook_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/barrage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/barrage_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/browse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/browse_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/brush.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/brush_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/businesscard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/businesscard_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/camera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_z3kod9mcngzdj9k9/camera_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/group_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/headlines.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/headlines_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/homepage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/homepage_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/integral.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/integral_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/interactive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/interactive_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/keyboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/label.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/label_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/like.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/like_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/live.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/live_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/lock_fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PngVsSvg/icon_zyo2tsn3iduc8fr/mail_fill.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PngVsSvg/30/gulpfile.js" afterPath="$PROJECT_DIR$/PngVsSvg/30/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PngVsSvg/30/package-lock.json" afterPath="$PROJECT_DIR$/PngVsSvg/30/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PngVsSvg/30/package.json" afterPath="$PROJECT_DIR$/PngVsSvg/30/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PngVsSvg/30/png.html" afterPath="$PROJECT_DIR$/PngVsSvg/30/png.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PngVsSvg/30/sprite.html" afterPath="$PROJECT_DIR$/PngVsSvg/30/sprite.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/text-animation.html" afterPath="$PROJECT_DIR$/example/text-animation.html" />
     </list>
     <ignored path="SVG.iws" />
@@ -24,75 +341,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/style.css">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/iconfont/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="540" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svg-out-js-symbol.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-out-js-symbol.html">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reveal/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state relative-caret-position="324">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svg-editor.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/svg-editor.htm">
+      <file leaf-file-name="png.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/png.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="319">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-animation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/text-animation.html">
+      <file leaf-file-name="png.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/css/png.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="44" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-432">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zjj-animation.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/zjj-animation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="line-animation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/line-animation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="path.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/path.svg">
+      <file leaf-file-name="svg.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/css/svg.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -101,31 +391,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mac-antimation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/mac-antimation.html">
+      <file leaf-file-name="sprite.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/png-sprite/sprite.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-856">
-              <caret line="100" column="36" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+            <state relative-caret-position="324">
+              <caret line="84" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sprite.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-sprite/sprite.html">
+      <file leaf-file-name="svg-inline-symbols.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-inline-symbols.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbols.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-sprite/svg/symbols.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="540">
+              <caret line="20" column="31" selection-start-line="7" selection-start-column="8" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -139,12 +419,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example/face.svg" />
-        <option value="$PROJECT_DIR$/example/face-test.htm" />
-        <option value="$PROJECT_DIR$/source/transform.htm" />
-        <option value="$PROJECT_DIR$/source/text.html" />
-        <option value="$PROJECT_DIR$/reveal.js/demo.html" />
-        <option value="$PROJECT_DIR$/reveal.js/index.html" />
         <option value="$PROJECT_DIR$/example/rect.svg" />
         <option value="$PROJECT_DIR$/example/circle.svg" />
         <option value="$PROJECT_DIR$/example/ellipse.svg" />
@@ -162,12 +436,10 @@
         <option value="$PROJECT_DIR$/PngVsSvg/png-compress.html" />
         <option value="$PROJECT_DIR$/PngVsSvg/svgo.html" />
         <option value="$PROJECT_DIR$/PngVsSvg/png-30.html" />
-        <option value="$PROJECT_DIR$/PngVsSvg/30/png.html" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/sprite.css" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/svg/emoji.svg" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/svg/base64-dynamic.txt" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/svg.html" />
-        <option value="$PROJECT_DIR$/PngVsSvg/30/gulpfile.js" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/svg-sprite/css/sprite.css" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/svg-sprite.html" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/svg-sprite/symbols.html" />
@@ -187,9 +459,17 @@
         <option value="$PROJECT_DIR$/example/curve-animation.html" />
         <option value="$PROJECT_DIR$/example/style.css" />
         <option value="$PROJECT_DIR$/example/stroke-test1.html" />
-        <option value="$PROJECT_DIR$/example/text-animation.html" />
         <option value="$PROJECT_DIR$/PngVsSvg/30/svg-inline-symbols.html" />
         <option value="$PROJECT_DIR$/example/zjj-animation.html" />
+        <option value="$PROJECT_DIR$/example/text-animation.html" />
+        <option value="$PROJECT_DIR$/img/Linearicons-Free-v1.0.0/Linearicons-Free-v1.0.0/Web Font/test.html" />
+        <option value="$PROJECT_DIR$/PngVsSvg/30/gulpfile.js" />
+        <option value="$PROJECT_DIR$/PngVsSvg/30/SvgVsIcon/test.html" />
+        <option value="$PROJECT_DIR$/PngVsSvg/30/iconfont/test.html" />
+        <option value="$PROJECT_DIR$/PngVsSvg/colorful/demo_symbol.html" />
+        <option value="$PROJECT_DIR$/PngVsSvg/iconfont/demo_symbol.html" />
+        <option value="$PROJECT_DIR$/PngVsSvg/30/css/png.css" />
+        <option value="$PROJECT_DIR$/PngVsSvg/30/png.html" />
       </list>
     </option>
   </component>
@@ -233,8 +513,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,20 +528,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SVG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,7 +595,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="svg-sprite" />
+              <option name="myItemId" value="png-sprite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,11 +617,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="svg-sprite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svg" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,26 +649,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -512,18 +760,19 @@
       <workItem from="1513318330503" duration="12927000" />
       <workItem from="1513561658897" duration="51000" />
       <workItem from="1513682183028" duration="2587000" />
-      <workItem from="1513755254257" duration="4511000" />
+      <workItem from="1513755254257" duration="5219000" />
+      <workItem from="1513819308573" duration="16228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76609000" />
+    <option name="totallyTimeSpent" value="93545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13066386" sideWeight="0.8801332" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20073763" sideWeight="0.8801332" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.52107483" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -557,217 +806,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/picture_fill.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="493" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/play.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/mobilephone.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="123" selection-start-line="0" selection-start-column="123" selection-end-line="0" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/mobilephone_fill.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="378" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/people.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="140" selection-start-line="0" selection-start-column="123" selection-end-line="0" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/people_fill.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="636" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/empty_fill.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-sprite/svg/sprite.png" />
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-sprite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-sprite/css/sprite.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-symbols.html" />
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/base64-dynamic.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="810" selection-start-line="0" selection-start-column="810" selection-end-line="0" selection-end-column="810" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-inline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg/dynamic.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="121" selection-start-line="0" selection-start-column="121" selection-end-line="0" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/path-antimation.html" />
-    <entry file="file://$PROJECT_DIR$/reveal/js/reveal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reveal/lib/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/path-animation.html" />
-    <entry file="file://$PROJECT_DIR$/reveal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="407" column="22" selection-start-line="407" selection-start-column="22" selection-end-line="407" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/line.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/path-2.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/polygon.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/ellipse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/曲线.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-sprite/svg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="116" selection-start-line="0" selection-start-column="116" selection-end-line="0" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/path-animation.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/path.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="122" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/svg11/svg-animation.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/face-test.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/face.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -776,32 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/follow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/curve-animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/stroke-test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-sprite/symbols.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21627">
           <caret line="801" column="22" selection-start-line="799" selection-start-column="16" selection-end-line="801" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,6 +848,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-out-js-symbol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/follow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/line.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -845,74 +886,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/mac-antimation.html">
+    <entry file="file://$PROJECT_DIR$/example/simple-path-2.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856">
-          <caret line="100" column="36" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/simple-path.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/rect.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/polyline.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/polygon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/path-2.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/SVGEditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/stroke-test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/line-animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/svg-editor.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="405">
+          <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="540" selection-end-column="1" />
+        <state relative-caret-position="297">
+          <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-inline-symbols.html">
+    <entry file="file://$PROJECT_DIR$/example/curve-animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="152" column="62" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
+        <state relative-caret-position="-162">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-out-js-symbol.html">
+    <entry file="file://$PROJECT_DIR$/example/svg-text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="657">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/mac-antimation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="88" column="61" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/text-animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="44" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="7" />
+        <state relative-caret-position="432">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/viewbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/zjj-animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="309">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/svg-editor.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Linearicons-Free-v1.0.0/Linearicons-Free-v1.0.0/Web Font/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Linearicons-Free-v1.0.0/Linearicons-Free-v1.0.0/Web Font/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="2721" column="49" selection-start-line="2721" selection-start-column="33" selection-end-line="2721" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Linearicons-Free-v1.0.0/Linearicons-Free-v1.0.0/Web Font/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <marker date="1513839396666" expanded="true" signature="954:1029" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/SvgVsIcon/symbols.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/SvgVsIcon/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="155" column="49" selection-start-line="155" selection-start-column="49" selection-end-line="155" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/iconfont/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/iconfont/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reveal/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/SvgVsIcon/svg/symbols.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="123" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="n#svg#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/png-sprite/sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/css/sprite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reveal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reveal/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/iconfont/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/iconfont/iconfont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2805">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/colorful/iconfont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/colorful/demo_symbol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/svg-inline-symbols.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="31" selection-start-line="7" selection-start-column="8" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/css/svg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/png-sprite/sprite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="84" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/css/png.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/iconfont/demo_symbol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PngVsSvg/30/png.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
