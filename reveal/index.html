@@ -176,23 +176,8 @@
 			</p>
 		</section>
 		<section>
-			<section>
-				<h2>为什么讲SVG</h2>
-			</section>
-			<section>
-				<h2>我们遇到了什么问题</h2>
-				<ul>
-					<li class="fragment">用户体验要求越来越高
-						<ul class="fragment">
-							<li>速度</li>
-							<li>高清</li>
-							<li>有趣</li>
-						</ul>
-					</li>
-					<li class="fragment">屏幕分辨率越来越高</li>
-					<li class="fragment">响应式</li>
-				</ul>
-			</section>
+			<h2>兼容性</h2>
+			<img src="../img/svg-caniuse.png" style="width:600px">
 		</section>
 		<section>
 			<section>
@@ -200,9 +185,9 @@
 			</section>
 			<section>
 				<ul>
-					<li>指<a class="fragment highlight-red">可伸缩矢量图形</a>(Scalable Vector Graphics)</li>
+					<li>指可伸缩<a class="fragment highlight-red">矢量</a>图形(Scalable Vector Graphics)</li>
 					<li class="fragment">用来定义用于网络的基于矢量的图形</li>
-					<li class="fragment">使用<a class="fragment highlight-red">XML</a>格式定义图形</li>
+					<li class="fragment">使用<a class="fragment highlight-red" target="svg_detail" href="http://www.w3school.com.cn/xml/xml_syntax.asp">XML</a>格式定义图形</li>
 					<li class="fragment">图像在放大或改变尺寸的情况下其图形质量不会有所损失</li>
 					<li class="fragment">是万维网联盟的标准</li>
 					<li class="fragment">与诸如DOM和XSL之类的W3C标准是一个整体</li>
@@ -253,10 +238,6 @@
 			</section>
 		</section>
 		<section>
-			<h2>兼容性</h2>
-			<img src="../img/svg-caniuse.png" style="width:600px">
-		</section>
-		<section>
 			<h2>基本形状</h2>
 			<ul>
 				<li>线</li>
@@ -273,8 +254,8 @@
 			<img src="../example/line.svg">
 			<pre class="fragment">
 				<code class="javascript" data-trim contenteditable>
-					<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-						<line x1="50" y1="50" x2="150" y2="150"></line>
+					<svg xmlns="http://www.w3.org/2000/svg">
+						<line x1="50" y1="50" x2="150" y2="150" stroke-width="1" stroke="red"></line>
 					</svg>
 				</code>
 			</pre>
