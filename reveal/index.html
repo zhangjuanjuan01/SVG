@@ -354,14 +354,16 @@
 					</code>
 				</pre>
 			</section>
-			<h4>曲线命令</h4>
-			<ul>
-				<li>M = moveto (M x y/m dx dy)</li>
-				<li>L = lineto (L x y/l dx dy)</li>
-				<li>H = horizontal lineto (H x/h dx)</li>
-				<li>V = vertical lineto (V y/v dy)</li>
-				<li>Z = closepath (Z/z)</li>
-			</ul>
+			<section>
+				<h4>曲线命令</h4>
+				<ul>
+					<li>A/a(rx,ry,xr,laf,sf,x,y) = 弧形命令</li>
+					<li>C/c(x1,y1,x2,y2,x,y) = 三次贝塞尔曲线</li>
+					<li>S/s(x2,y2,x,y) = 光滑三次贝塞尔曲线</li>
+					<li>Q/q(x1,y1,x,y) = 二次贝斯尔曲线</li>
+					<li>T/t(x,y) = 光滑二次贝塞尔曲线</li>
+				</ul>
+			</section>
 		</section>
 		<section>
 			<h2>SVG VS PNG</h2>
