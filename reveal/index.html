@@ -376,22 +376,26 @@
 				stroke-opacity:不透明度
 				stroke-dasharray:如果你需要画虚线，此属性定义线的长度和空隙的长度，数字之间用都好火空格分割，数字的个数
 				应该为偶数，如果指定的为奇数，则SVG会重复一次，得到总个数为偶数
+				<a href="../example/stroke-test1.html" target="_blank">使用dasharray实现某些效果</a>
+				<a href="../example/svg-text.html" target="_blank">And More?</a>
+				<span>这里要注意stroke-width对svg图形的宽度和高度的影响</span>
 			</pre>
 			<pre>
 				fill:指定填充颜色
 				fill-opacity:不透明度
 			</pre>
-			<a href="" target="_blank">example--1</a><!--这里使用自己创建SVG图的案例进行基本图形以及属性的演示-->
+			<a href="../example/svg-editor.htm" target="_blank">example--1</a><!--这里使用自己创建SVG图的案例进行基本图形以及属性的演示-->
 		</section>
 		<section>
 			<h2>SVG坐标系统</h2>
-			<a href="" target="_blank">坐标系统说明</a>
+			<a href="../example/viewbox.html" target="_blank">坐标系统说明</a>
 		</section>
-		<section>坐标系统转换</section>
+		<section>坐标系统转换 transform</section>
 			<ul>
 				<li>translate</li>
 				<li>scale</li>
 				<li>rotate</li>
+				<li><a href="../example/SVGEditor.html" target="_blank">举个栗子</a></li>
 			</ul>
 		<section>
 			<h2>如何在页面中使用SVG</h2>
@@ -402,6 +406,54 @@
 		</section>
 		<section>
 			<h2>分组和引用</h2>
+			<section>
+				<h2>锤子的故事</h2>
+			</section>
+			<section>
+				<code>
+					<h2>一个简单的绿色的锤子</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+						<rect x="50" y="50" width="100" height="30" fill="none" stroke-width="1" stroke="green"/>
+						<rect x="90" y="80" width="20" height="80" fill="none" stroke-width="1" stroke="green"/>
+					</svg>
+				</code>
+			</section>
+			<section>
+				<h2>我想把锤子变成红色</h2>
+				<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+					<g fill="none" stroke-width="1" stroke="red">
+						<rect x="50" y="50" width="100" height="30"/>
+						<rect x="90" y="80" width="20" height="80"/>
+					</g>
+				</svg>
+			</section>
+			<section>
+				<h2>我想要两把锤子，一把红色，一把绿色</h2>
+				<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+					<def>
+						<g id="hammer">
+							<rect x="50" y="50" width="100" height="30"/>
+							<rect x="90" y="80" width="20" height="80"/>
+						</g>
+					</def>
+					<use xlink:href="#hammer" x="100" y="100" fill="none" stroke-width="1" stroke="green"></use>
+					<use xlink:href="#hammer" x="50" y="50" fill="none" stroke-width="1" stroke="red"></use>
+				</svg>
+			</section>
+			<section>
+				<h2>我想要一把红色的大锤子，一把绿色的小锤子</h2>
+				<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+					<def>
+						<symbol id="symbol-hammer">
+							<rect x="50" y="50" width="100" height="30"/>
+							<rect x="90" y="80" width="20" height="80"/>
+						</symbol>
+					</def>
+					<use xlink:href="#symbol-hammer" x="100" y="100" fill="none" stroke-width="10" stroke="green"></use>
+					<use xlink:href="#symbol-hammer" x="50" y="50" fill="none" stroke-width="10" stroke="red"></use>
+				</svg>
+			</section>
+			<pre>锤子的故事</pre>
 			<pre>g/defs/symbol/use</pre>
 			<code>
 				锤子的故事
