@@ -176,10 +176,6 @@
 			</p>
 		</section>
 		<section>
-			<h2>兼容性</h2>
-			<img src="../img/svg-caniuse.png" style="width:600px">
-		</section>
-		<section>
 			<section>
 				<h2>什么是SVG</h2>
 			</section>
@@ -193,6 +189,13 @@
 					<li class="fragment">与诸如DOM和XSL之类的W3C标准是一个整体</li>
 				</ul>
 			</section>
+		</section>
+		<section>
+			<h2>兼容性</h2>
+			<img src="../img/svg-caniuse.png" style="width:600px">
+		</section>
+		<section>
+			<h2>创建一个SVG图</h2>
 		</section>
 		<section>
 			<section>
@@ -366,7 +369,43 @@
 			</section>
 		</section>
 		<section>
-			<h2>viewbox</h2>
+			<h2>SVG样式属性--Fill、Stroke</h2>
+			<pre>
+				stroke:定义画笔颜色：red，#ccc,rgb(255.0,0),rgba(),hsl()---色相值/饱和度/明度,hsla()
+				stroke-width:定义画笔粗细
+				stroke-opacity:不透明度
+				stroke-dasharray:如果你需要画虚线，此属性定义线的长度和空隙的长度，数字之间用都好火空格分割，数字的个数
+				应该为偶数，如果指定的为奇数，则SVG会重复一次，得到总个数为偶数
+			</pre>
+			<pre>
+				fill:指定填充颜色
+				fill-opacity:不透明度
+			</pre>
+			<a href="" target="_blank">example--1</a><!--这里使用自己创建SVG图的案例进行基本图形以及属性的演示-->
+		</section>
+		<section>
+			<h2>SVG坐标系统</h2>
+			<a href="" target="_blank">坐标系统说明</a>
+		</section>
+		<section>坐标系统转换</section>
+			<ul>
+				<li>translate</li>
+				<li>scale</li>
+				<li>rotate</li>
+			</ul>
+		<section>
+			<h2>如何在页面中使用SVG</h2>
+			<ul>
+				<li>内联</li>
+				<li class="fragment">作为图片 src/background-image</li>
+			</ul>
+		</section>
+		<section>
+			<h2>分组和引用</h2>
+			<pre>g/defs/symbol/use</pre>
+			<code>
+				锤子的故事
+			</code>
 		</section>
 		<section>
 			<h2>SVG VS PNG</h2>
@@ -406,7 +445,10 @@
 			</section>
 		</section>
 		<section>
-			<h2></h2>
+			<h2>文本路径</h2>
+		</section>
+		<section>
+			<h2>路径运动</h2>
 		</section>
 	</div>
 
