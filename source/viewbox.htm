@@ -1,0 +1,54 @@
+<html>
+<head></head>
+<style>
+	.move{
+		animation:mymove 5s infinite;
+		-webkit-animation:mymove 5s infinite; /* Safari 和 Chrome */
+	}
+	@keyframes mymove
+	{
+		from {width: 100px;height:100px;}
+		to {width: 500px;height:500px;}
+	}
+</style>
+<body>
+<svg width="50" height="50" style="border:1px solid red">
+	<text x="10" y="20">没有单位</text>
+	<rect x="0" y="0" width="25" height="15" style="stroke:black;fill:none"></rect>
+</svg>
+<svg width="50mm" height="50mm" style="border:1px solid red">
+	<text x="10" y="20">svg有单位mm rect没写单位</text>
+	<rect x="0 " y="0" width="25" height="15" style="stroke:black;fill:none"></rect>
+</svg>
+<svg width="50mm" height="50mm" style="border:1px solid red">
+	<text x="10" y="20">两个都有单位为mm</text>
+	<rect x="0mm" y="0mm" width="25mm" height="15mm" style="stroke:black;fill:none"></rect>
+</svg>
+<svg width="50" height="50" viewBox="0 0 100 100" style="border:1px solid red">
+	<rect x="0" y="0" width="50" height="30" style="stroke:black;fill:none"></rect>
+</svg>
+<svg width="50mm" height="50mm" viewBox="0 0 100 100" style="border:1px solid red">
+	<rect x="0" y="0" width="50" height="30" style="stroke:black;fill:none"></rect>
+</svg>
+<svg width="50mm" height="50mm" viewBox="0 0 100 100" style="border:1px solid red">
+	<rect x="0mm" y="0mm" width="10mm" height="10mm" style="stroke:black;fill:none"></rect>
+	<rect x="0" y="0" width="10" height="10" style="stroke:black;fill:none"></rect>
+	<rect x="0" y="0" width="37.79" height="37.79" style="stroke:black;fill:none"></rect>
+</svg>
+<svg width="50mm" height="50mm" viewBox="0 0 50 50" style="border:1px solid red">
+	<rect x="0mm" y="0mm" width="10mm" height="10mm" style="stroke:black;fill:none"></rect>
+	<rect x="0" y="0" width="10" height="10" style="stroke:black;fill:none"></rect>
+	<rect x="0" y="0" width="37.79" height="37.79" style="stroke:black;fill:none"></rect>
+</svg>
+<p>宽度为500px;高度为500px viewbox 为(0 0 100 100)的演示</p>
+<div style="width:500px;height: 500px;border:1px solid red">
+	<div style="width:100px;height: 100px;border:1px solid red" id="testDiv">把我填充满</div>
+</div>
+<button type="button" id="test">点我演示</button>
+<script>
+	document.getElementById("test").addEventListener("click",function () {
+		document.getElementById("testDiv").className = "move";
+	})
+</script>
+</body>
+</html>
