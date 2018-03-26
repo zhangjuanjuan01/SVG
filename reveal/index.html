@@ -12,12 +12,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+	<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
-	<link rel="stylesheet" href="css/style-index.css">
+	<!--<link rel="stylesheet" href="css/style-index.css">-->
 	<style>
+        .text-red{
+            color:red;
+        }
+        .reveal table th{
+            font-size:32px;
+        }
+        .reveal table td{
+            font-size:20px;
+        }
+        .mt20{
+            margin-top:20px;
+        }
 		path{
 			fill:transparent;
 			stroke-width: 2;
@@ -176,20 +188,18 @@
 			</p>
 		</section>
 		<section>
-			<section>
-				<h2>什么是SVG</h2>
-			</section>
-			<section>
-				<ul>
-					<li>指可伸缩<a class="fragment highlight-red">矢量</a>图形(Scalable Vector Graphics)</li>
-					<li class="fragment">用来定义用于网络的基于矢量的图形</li>
-					<li class="fragment">使用<a class="fragment highlight-red" target="svg_detail" href="http://www.w3school.com.cn/xml/xml_syntax.asp">XML</a>格式定义图形</li>
-					<li class="fragment">图像在放大或改变尺寸的情况下其图形质量不会有所损失</li>
-					<li class="fragment">是万维网联盟的标准</li>
-					<li class="fragment">与诸如DOM和XSL之类的W3C标准是一个整体</li>
-				</ul>
-			</section>
+            <h2>什么是SVG</h2>
 		</section>
+        <section>
+            <ul>
+                <li>指可伸缩<a class="fragment highlight-red">矢量</a>图形(Scalable Vector Graphics)</li>
+                <li class="fragment">用来定义用于网络的基于矢量的图形</li>
+                <li class="fragment">使用<a class="fragment highlight-red" target="svg_detail" href="http://www.w3school.com.cn/xml/xml_syntax.asp">XML</a>格式定义图形</li>
+                <li class="fragment">图像在放大或改变尺寸的情况下其图形质量不会有所损失</li>
+                <li class="fragment">是万维网联盟的标准</li>
+                <li class="fragment">与诸如DOM和XSL之类的W3C标准是一个整体</li>
+            </ul>
+        </section>
 		<section>
 			<h2>兼容性</h2>
 			<img src="../img/svg-caniuse.png" style="width:600px">
@@ -365,38 +375,43 @@
 					<li>S/s(x2,y2,x,y) = 光滑三次贝塞尔曲线</li>
 					<li>Q/q(x1,y1,x,y) = 二次贝斯尔曲线</li>
 					<li>T/t(x,y) = 光滑二次贝塞尔曲线</li>
+                    <a href="">曲线命令讲解</a>
 				</ul>
 			</section>
 		</section>
-		<section>
-			<h2>SVG样式属性--Fill、Stroke</h2>
-			<pre>
-				stroke:定义画笔颜色：red，#ccc,rgb(255.0,0),rgba(),hsl()---色相值/饱和度/明度,hsla()
-				stroke-width:定义画笔粗细
-				stroke-opacity:不透明度
-				stroke-dasharray:如果你需要画虚线，此属性定义线的长度和空隙的长度，数字之间用都好火空格分割，数字的个数
-				应该为偶数，如果指定的为奇数，则SVG会重复一次，得到总个数为偶数
-				<a href="../example/stroke-test1.html" target="_blank">使用dasharray实现某些效果</a>
-				<a href="../example/svg-text.html" target="_blank">And More?</a>
-				<span>这里要注意stroke-width对svg图形的宽度和高度的影响</span>
-			</pre>
-			<pre>
-				fill:指定填充颜色
-				fill-opacity:不透明度
-			</pre>
-			<a href="../example/svg-editor.htm" target="_blank">example--1</a><!--这里使用自己创建SVG图的案例进行基本图形以及属性的演示-->
-		</section>
+        <section>
+            <h2>画笔属性</h2>
+            <ul>
+                <li>stroke:定义画笔颜色</li>
+                <li>stroke-width:定义画笔粗细</li>
+                <li>stroke-opacity:不透明度</li>
+                <li>stroke-dasharray:如果你需要画虚线，此属性定义线的长度和空隙的长度</li>
+                <li><a href="../example/stroke-test1.html" target="_blank">使用dasharray实现某些效果</a></li>
+                <li><a href="../example/svg-text.html" target="_blank">And More?</a></li>
+                <small class="text-red">这里要注意stroke-width对svg图形的宽度和高度的影响</small>
+            </ul>
+        </section>
+        <section>
+            <h2>填充</h2>
+            <ul>
+                <li>fill:指定填充颜色</li>
+                <li>fill-opacity:不透明度</li>
+            </ul>
+            <a href="../example/svg-editor.htm" target="_blank">例子</a><!--这里使用自己创建SVG图的案例进行基本图形以及属性的演示-->
+        </section>
 		<section>
 			<h2>SVG坐标系统</h2>
 			<a href="../example/viewbox.html" target="_blank">坐标系统说明</a>
 		</section>
-		<section>坐标系统转换 transform</section>
+		<section>
+            <h2>坐标系统转换 transform</h2>
 			<ul>
 				<li>translate</li>
 				<li>scale</li>
 				<li>rotate</li>
 				<li><a href="../example/SVGEditor.html" target="_blank">举个栗子</a></li>
 			</ul>
+        </section>
 		<section>
 			<h2>如何在页面中使用SVG</h2>
 			<ul>
@@ -405,30 +420,46 @@
 			</ul>
 		</section>
 		<section>
-			<h2>分组和引用</h2>
+            <section>
+                <h2>分组和引用</h2>
+                <small>锤子的故事</small>
+            </section>
 			<section>
-				<h2>锤子的故事</h2>
+                <h4>一个绿色的锤子</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+                    <rect x="50" y="50" width="100" height="30" fill="none" stroke-width="1" stroke="green"/>
+                    <rect x="90" y="80" width="20" height="80" fill="none" stroke-width="1" stroke="green"/>
+                </svg>
+                <pre class="fragment">
+                    <code class="javascript" data-trim contenteditable>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+                            <rect x="50" y="50" width="100" height="30" fill="none" stroke-width="1" stroke="green"/>
+                            <rect x="90" y="80" width="20" height="80" fill="none" stroke-width="1" stroke="green"/>
+                        </svg>
+                    </code>
+                </pre>
 			</section>
 			<section>
-				<code>
-					<h2>一个简单的绿色的锤子</h2>
-					<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-						<rect x="50" y="50" width="100" height="30" fill="none" stroke-width="1" stroke="green"/>
-						<rect x="90" y="80" width="20" height="80" fill="none" stroke-width="1" stroke="green"/>
-					</svg>
-				</code>
-			</section>
-			<section>
-				<h2>我想把锤子变成红色</h2>
+				<h4>我想把锤子变成红色</h4>
 				<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
 					<g fill="none" stroke-width="1" stroke="red">
 						<rect x="50" y="50" width="100" height="30"/>
 						<rect x="90" y="80" width="20" height="80"/>
 					</g>
 				</svg>
+                <pre class="fragment">
+                    <code class="javascript" data-trim contenteditable>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+                            <g fill="none" stroke-width="1" stroke="red">
+                                <rect x="50" y="50" width="100" height="30"/>
+                                <rect x="90" y="80" width="20" height="80"/>
+                            </g>
+                        </svg>
+                    </code>
+                </pre>
 			</section>
 			<section>
-				<h2>我想要两把锤子，一把红色，一把绿色</h2>
+				<h4>我想要两把锤子，一把红色，一把绿色</h4>
 				<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
 					<def>
 						<g id="hammer">
@@ -436,36 +467,103 @@
 							<rect x="90" y="80" width="20" height="80"/>
 						</g>
 					</def>
-					<use xlink:href="#hammer" x="100" y="100" fill="none" stroke-width="1" stroke="green"></use>
-					<use xlink:href="#hammer" x="50" y="50" fill="none" stroke-width="1" stroke="red"></use>
+					<use xlink:href="#hammer" x="30" y="30" fill="none" stroke-width="1" stroke="green"></use>
+					<use xlink:href="#hammer" x="40" y="40" fill="none" stroke-width="1" stroke="red"></use>
 				</svg>
+                <pre class="fragment">
+                    <code class="javascript" data-trim contenteditable>
+                        <def>
+                            <g id="hammer">
+                                <rect x="50" y="50" width="100" height="30"/>
+                                <rect x="90" y="80" width="20" height="80"/>
+                            </g>
+                        </def>
+                        <use xlink:href="#hammer" x="30" y="30" fill="none" stroke-width="1" stroke="green"></use>
+                        <use xlink:href="#hammer" x="40" y="40" fill="none" stroke-width="1" stroke="red"></use>
+                    </code>
+                </pre>
 			</section>
 			<section>
-				<h2>我想要一把红色的大锤子，一把绿色的小锤子</h2>
-				<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-					<def>
-						<symbol id="symbol-hammer">
-							<rect x="50" y="50" width="100" height="30"/>
-							<rect x="90" y="80" width="20" height="80"/>
-						</symbol>
-					</def>
-					<use xlink:href="#symbol-hammer" x="100" y="100" fill="none" stroke-width="10" stroke="green"></use>
-					<use xlink:href="#symbol-hammer" x="50" y="50" fill="none" stroke-width="10" stroke="red"></use>
-				</svg>
+				<h4>我想要一把红色的小锤子，一把绿色的大锤子</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+                    <defs>
+                        <symbol id="symbol-hammer" viewbox="30 30 200 200" preserveAspectRatio="xMidYMid meet" stroke-width="1">
+                            <rect x="50" y="50" width="100" height="30"/>
+                            <rect x="90" y="80" width="20" height="80"/>
+                        </symbol>
+                    </defs>
+                    <use xlink:href="#symbol-hammer" x="10" y="10" width="100" height="120" fill="none" stroke="red"></use>
+                    <use xlink:href="#symbol-hammer" x="100" y="100" width="200" height="220" fill="none" stroke="green"></use>
+                </svg>
 			</section>
-			<pre>锤子的故事</pre>
-			<pre>g/defs/symbol/use</pre>
-			<code>
-				锤子的故事
-			</code>
+            <section>
+                <pre>
+                    <code class="javascript" data-trim contenteditable>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" style="border:1px solid red">
+                            <defs>
+                                <symbol id="symbol-hammer" viewbox="30 30 200 200" preserveAspectRatio="xMidYMid meet" stroke-width="1">
+                                    <rect x="50" y="50" width="100" height="30"/>
+                                    <rect x="90" y="80" width="20" height="80"/>
+                                </symbol>
+                            </defs>
+                            <use xlink:href="#symbol-hammer" x="10" y="10" width="100" height="120" fill="none" stroke="red"></use>
+                            <use xlink:href="#symbol-hammer" x="100" y="100" width="200" height="220" fill="none" stroke="green"></use>
+                        </svg>
+                    </code>
+                </pre>
+            </section>
 		</section>
+        <section>
+            <h2>SVG VS PNG</h2>
+        </section>
 		<section>
-			<h2>SVG VS PNG</h2>
+            <section>
+                <h2>图片大小</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>文件名</th>
+                        <th>格式</th>
+                        <th>原始大小</th>
+                        <th>压缩后大小</th>
+                        <th>压缩工具</th>
+                        <th>速度</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>accessory.png</td>
+                        <td>PNG</td>
+                        <td>9.31 KB</td>
+                        <td>1.57 KB</td>
+                        <td>tinyPng</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>accessory.svg</td>
+                        <td>SVG</td>
+                        <td>1.21 KB</td>
+                        <td>1.03 KB</td>
+                        <td>SVGO</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <small class="mt20">Png为了适配不同的分辨率，有时还要使用三倍图</small>
+                <small>Png-base64与内联SVG相比，前者体积更大</small>
+            </section>
+            <section>
+                <h4>雪碧图</h4>
+                <small>Css Sprite</small>
+                <small>SvgSprite</small>
+            </section>
+            <section>
+                <h4>总结</h4>
+            </section>
 		</section>
 		<section>
 			<h2>SVG VS ICONFONT</h2>
 		</section>
-		<section>
+		<section data-background-transition="zoom">
 			<h2>SVG 动画</h2>
 		</section>
 		<section>
@@ -498,9 +596,33 @@
 		</section>
 		<section>
 			<h2>文本路径</h2>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 581 200" >
+                <defs>
+                    <path id="path-curve" d="M62.9 14.9c-25-7.74-56.6 4.8-60.4 24.3-3.73 19.6 21.6 35 39.6 37.6 42.8 6.2 72.9-53.4 116-58.9 65-18.2 191 101 215 28.8 5-16.7-7-49.1-34-44-34 11.5-31 46.5-14 69.3 9.38 12.6 24.2 20.6 39.8 22.9 91.4 9.05 102-98.9 176-86.7 18.8 3.81 33 17.3 36.7 34.6 2.01 10.2.124 21.1-5.18 30.1"></path>
+                </defs>
+                <use xlink:href="#path-curve" fill="none" stroke="#0171bb" stroke-width="1" stroke-dasharray="4"></use>
+                <text font-size="14" fill="red">
+                    <textPath xlink:href="#path-curve" textLength="400" startOffset="0" class="text-path">
+                        svg textPath元素可以让文字随着指定路径排列
+                    </textPath>
+                </text>
+            </svg>
 		</section>
 		<section>
 			<h2>路径运动</h2>
+            <svg class="icon" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width: 500px;height: 500px;">
+                <circle cx="0" cy="0" r="10" fill="green">
+                    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+                        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#theCurvePath"></mpath>
+                    </animateMotion>
+                </circle>
+                <path id="theCurvePath" d="M153 334 C153 334 151 334 151 334  C151 339 153 344 156 344 C164 344 171 339 171 334  C171 322 164 314 156 314  C142 314 131 322 131 334 C131 350 142 364 156 364 C175 364 191 350 191 334
+        C191 311 175 294 156 294
+        C131 294 111 311 111 334
+        C111 361 131 384 156 384
+        C186 384 211 361 211 334
+        C211 300 186 274 156 274" style="fill:transparent;stroke:red;stroke-width:2"></path>
+            </svg>
 		</section>
 	</div>
 
