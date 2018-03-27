@@ -512,6 +512,10 @@
                     </code>
                 </pre>
             </section>
+            <section>
+                <h4>SVG Sprite</h4>
+
+            </section>
 		</section>
         <section>
             <h2>SVG VS PNG</h2>
@@ -527,7 +531,6 @@
                         <th>原始大小</th>
                         <th>压缩后大小</th>
                         <th>压缩工具</th>
-                        <th>速度</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -537,7 +540,6 @@
                         <td>9.31 KB</td>
                         <td>1.57 KB</td>
                         <td>tinyPng</td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td>accessory.svg</td>
@@ -549,7 +551,57 @@
                     </tbody>
                 </table>
                 <small class="mt20">Png为了适配不同的分辨率，有时还要使用三倍图</small>
-                <small>Png-base64与内联SVG相比，前者体积更大</small>
+            </section>
+            <section>
+                <h2>时间对比</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>类型</th>
+                        <th>第一次</th>
+                        <th>第二次</th>
+                        <th>第三次</th>
+                        <th>第四次</th>
+                        <th>第五次</th>
+                        <th>第六次</th>
+                        <th>第七次</th>
+                        <th>第八次</th>
+                        <th>第九次</th>
+                        <th>第十次</th>
+                        <th>平均</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>PNG</td>
+                        <td>3160</td>
+                        <td>3156</td>
+                        <td>3188</td>
+                        <td>3168</td>
+                        <td>3191</td>
+                        <td>3169</td>
+                        <td>3186</td>
+                        <td>3178</td>
+                        <td>3146</td>
+                        <td>3158</td>
+                        <td>3170</td>
+                    </tr>
+                    <tr>
+                        <th>SVG</th>
+                        <td>3201</td>
+                        <td>3158</td>
+                        <td>3145</td>
+                        <td>3163</td>
+                        <td>3208</td>
+                        <td>3190</td>
+                        <td>3155</td>
+                        <td>3126</td>
+                        <td>3169</td>
+                        <td>3209</td>
+                        <td>3172.4</td>
+                    </tr>
+                    </tbody>
+                </table>
             </section>
             <section>
                 <h4>雪碧图</h4>
@@ -557,11 +609,154 @@
                 <small>SvgSprite</small>
             </section>
             <section>
+                <h2>雪碧图时间对比</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>类型</th>
+                        <th>第一次</th>
+                        <th>第二次</th>
+                        <th>第三次</th>
+                        <th>第四次</th>
+                        <th>第五次</th>
+                        <th>第六次</th>
+                        <th>第七次</th>
+                        <th>第八次</th>
+                        <th>第九次</th>
+                        <th>第十次</th>
+                        <th>平均</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>cssSprite</td>
+                        <td>3081</td>
+                        <td>3054</td>
+                        <td>3085</td>
+                        <td>3106</td>
+                        <td>3122</td>
+                        <td>3091</td>
+                        <td>3090</td>
+                        <td>3110</td>
+                        <td>3085</td>
+                        <td>3097</td>
+                        <td>3091.1</td>
+                    </tr>
+                    <tr>
+                        <th>SVGSprite</th>
+                        <td>3078</td>
+                        <td>3091</td>
+                        <td>3080</td>
+                        <td>3118</td>
+                        <td>3084</td>
+                        <td>3093</td>
+                        <td>3087</td>
+                        <td>3096</td>
+                        <td>3079</td>
+                        <td>3094</td>
+                        <td>3090</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
                 <h4>总结</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>PNG优点</th>
+                            <th>PNG缺点</th>
+                            <th>SVG优点</th>
+                            <th>SVG缺点</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1、整体耗时比svg图要快一点<br/> 2、PNG图更直观，更便于查找和更换</td>
+                            <td>1、PNG不能随意改变大小和颜色<br/> 2、在分辨率高的设备上需要使用三倍图来保证图片显示的质量</td>
+                            <td>1、矢量图形显示质量不受屏幕分辨率影响 <br/>2、很方便控制其大小和颜色<br/> 3、可进行局部控制</td>
+                            <td>1、渲染速度较慢 <br/>2、不利于直接查看 <br/>3、兼容性较差</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 		</section>
 		<section>
-			<h2>SVG VS ICONFONT</h2>
+            <section>
+                <h2>SVG VS ICONFONT</h2>
+            </section>
+            <section>
+                <h4>时间对比</h4>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>类型</th>
+                        <th>第一次</th>
+                        <th>第二次</th>
+                        <th>第三次</th>
+                        <th>第四次</th>
+                        <th>第五次</th>
+                        <th>第六次</th>
+                        <th>第七次</th>
+                        <th>第八次</th>
+                        <th>第九次</th>
+                        <th>第十次</th>
+                        <th>平均</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>icon</td>
+                        <td>3118</td>
+                        <td>3162</td>
+                        <td>3177</td>
+                        <td>3139</td>
+                        <td>3088</td>
+                        <td>3113</td>
+                        <td>3167</td>
+                        <td>3153</td>
+                        <td>3159</td>
+                        <td>3138</td>
+                        <td>3141.4</td>
+                    </tr>
+                    <tr>
+                        <th>SVGSprite</th>
+                        <td>3092</td>
+                        <td>3154</td>
+                        <td>3109</td>
+                        <td>3170</td>
+                        <td>3134</td>
+                        <td>3128</td>
+                        <td>3121</td>
+                        <td>3158</td>
+                        <td>3142</td>
+                        <td>3144</td>
+                        <td>3135.2</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h4>总结</h4>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>iconfont优点</th>
+                        <th>iconfont缺点</th>
+                        <th>SVG优点</th>
+                        <th>SVG缺点</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1、可随意修改颜色和大小</td>
+                        <td>1、只支持单色或css控制渐变色<br/> 2、制作新的字体图标很复杂 <br/>3、可能为了加载某一个字体图标而引入整个字体图标库和样式<br/>受浏览器最小字体的限制</td>
+                        <td>1、支持彩色<br/>2、矢量图形显示质量不受屏幕分辨率影响 <br/>3、很方便控制其大小和颜色<br/> 4、可进行局部控制</td>
+                        <td>1、渲染速度较慢 <br/>2、不利于直接查看 <br/>3、兼容性较差</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
 		</section>
 		<section data-background-transition="zoom">
 			<h2>SVG 动画</h2>
@@ -569,7 +764,7 @@
 		<section>
 			<h2>SVG路径描边动画</h2>
 			<section>
-				<svg class="line-drawing hide" id="mac" width="100%" height="600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+				<svg class="line-drawing hide" id="mac" style="display: none" width="100%" height="600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
 					<path d="M 257.85024,158.16843 754.90716,35.953537 731.06035,405.57906 228.78695,448.8014 z" class="path1"></path>
 					<path class="path2" d="m 259.83736,136.30872 c 0,0 -6.74232,0.97288 -11.61303,5.46502 -3.96751,3.659 -6.12527,9.40831 -7.01729,20.86596 l -36.5158,346.77284 c 0,0 -3.47753,13.41382 10.68151,14.15903 l 517.67468,-21.11485 c 0,0 18.38216,0.74522 19.87257,-19.62369 L 784.07068,11.384991 c 0,0 0.059,-13.07475 -23.20111,-7.2266959 L 259.83736,136.30872 z"></path>
 					<path class="path3" d="m 211.29271,522.89381 c 0,0 12.5259,6.63947 19.72988,5.64573 l 513.45197,-19.12737 c 0,0 18.87884,0.74557 21.61112,-18.87848 l 29.5596,-462.528221 c 0,0 1.49047,-10.184447 -13.54272,-21.4997553"></path>
@@ -653,6 +848,7 @@
 		]
 	});
 	$("#mac").bind("click",function () {
+		$(this).show();
 		$(this).addClass("active");
 	})
 	window.onload = function (){
