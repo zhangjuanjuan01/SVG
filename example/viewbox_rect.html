@@ -6,7 +6,7 @@
             body {
                 background: #eee;
             }
-            svg {
+            .svg {
                 position: absolute;
                 border: 1px solid green;
                 width: 300px;
@@ -17,9 +17,6 @@
                 margin-left: -150px;
                 background: white;
             }
-			svg:nth-child(2){
-			  top:70%
-			}
             input[type=number] {
                 width: 50px;
             }
@@ -57,14 +54,15 @@
             </fieldset>
         </form>
 		<p>SVG 宽度300 高度200  矩形宽度100，高度100</p>
-        <p>
-			<svg xmlns="http://www.w3.org/2000/svg">
+		<p>viewBox 0 0 200 200</p>
+		<div>
+			<svg xmlns="http://www.w3.org/2000/svg" style="background-color:white;width:300px;height:200px;border:1px solid green">
                 <rect x="0" y="0" width="100" height="100" fill="red"></rect>
             </svg>
-            <svg id="svg" xmlns="http://www.w3.org/2000/svg">
-                <rect x="0" y="0" width="100" height="100" fill="red"></rect>
-            </svg>
-        </p>
+		</div>
+		<svg id="svg" xmlns="http://www.w3.org/2000/svg" class="svg">
+			<rect x="0" y="0" width="100" height="100" fill="red"></rect>
+		</svg>
         <script>
             function update() {
                 var viewBox =  [vx.value, vy.value, vw.value, vh.value].join(' ');
