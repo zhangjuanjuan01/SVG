@@ -66,7 +66,7 @@
         <script>
             function update() {
                 var viewBox =  [vx.value, vy.value, vw.value, vh.value].join(' ');
-                var preserveAspectRatio = [align.value, meetOrSlice.value].join(' ');
+                var preserveAspectRatio = (align.value=="none"||meetOrSlice.value=="none")?"none":[align.value, meetOrSlice.value].join(' ');
 				var svg = document.getElementById("svg");
                 svg.setAttribute('viewBox', viewBox);
                 svg.setAttribute('preserveAspectRatio', preserveAspectRatio);
